@@ -1,0 +1,41 @@
+{
+  "id": "tech-hud",
+  "name": "深蓝科技",
+  "engine": "1.0",
+  "version": "1.0.0",
+  "description": "深蓝 HUD 科技风：发光标题栏、科幻边框与光效，适合路演和大赛答辩",
+  "style": ["科技", "未来", "商务"],
+  "fits": ["项目路演", "创业大赛", "科技产品", "智能汽车", "AI", "人工智能", "数字化", "互联网", "产品发布", "技术方案", "大数据", "智慧城市"],
+  "avoid": ["人文情感", "儿童教育", "国潮", "婚礼", "美食"],
+  "tone": "深色",
+  "palette": ["#0A2358", "#016DFF", "#2F8CFF", "#36F8E6", "#FFC95C"],
+  "background": "0A2358",
+  "fonts": { "head": "微软雅黑", "body": "微软雅黑" },
+  "pageTypes": ["cover", "toc", "section", "points3", "points4", "compare", "stats", "timeline", "imageText", "quote", "closing", "table", "steps"],
+  "layouts": {
+    "cover": ["stage"],
+    "toc": ["grid"],
+    "section": ["ring", "photo"],
+    "points3": ["imageCards", "tagList"],
+    "points4": ["columns", "grid2x2"],
+    "compare": ["panels", "triad"],
+    "stats": ["badges", "chart"],
+    "timeline": ["curve"],
+    "imageText": ["frameLeft", "frameRight"],
+    "quote": ["center", "portrait"],
+    "closing": ["swoosh"],
+    "table": ["panel"],
+    "steps": ["platforms"]
+  },
+  "imageHeavy": true,
+  "imageStyle": "数字科技感插画或摄影：深蓝色调为主，点缀青色与电光蓝的发光线条和粒子光效，未来感、赛博城市夜景氛围，画面干净有纵深。画面中不要出现任何文字、字母、数字、Logo 或水印。",
+  "defaultImage": "photo_car_tech.jpg",
+  "preview": {
+    "cover": "preview/cover.jpg",
+    "samples": ["preview/sample1.jpg", "preview/sample2.jpg"],
+    "overview": "preview/overview.jpg",
+    "samplePages": [4, 14]
+  },
+  "license": "版式与装饰元素借鉴自网络模板「驾培智链」；assets/ 里的背景、光效和照片仅限自用，分享或收费前需全部换成 AI 生成或可商用图片",
+  "qa": { "minBodyPt": 11, "minPt": 9 }
+}

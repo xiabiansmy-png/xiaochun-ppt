@@ -1,0 +1,12 @@
+node_modules/
+.env
+projects/
+generated/
+.cache/
+*.log
+dist/
+.claude/settings.local.json
+# 旧备份和作废的目录
+*.zip
+/legacy/
+/skills/

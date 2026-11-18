@@ -1,0 +1,40 @@
+{
+  "id": "morimoto",
+  "name": "雾紫杂志",
+  "engine": "1.0",
+  "version": "1.0.0",
+  "description": "低饱和雾紫底 + 琥珀点缀，杂志式大图留白与叶影装饰，安静、有质感",
+  "style": ["文艺", "简洁", "杂志"],
+  "fits": ["人文", "生活方式", "观点分享", "品牌介绍", "趋势解读", "读书分享", "社会话题"],
+  "avoid": ["严肃财报", "儿童教育", "促销活动"],
+  "tone": "深色",
+  "palette": ["#7B7584", "#CEC3CE", "#BD802F", "#C75431", "#3F3D42"],
+  "background": "7B7584",
+  "fonts": { "head": "思源黑体 CN Light", "body": "等线" },
+  "pageTypes": ["cover", "toc", "section", "points3", "points4", "compare", "stats", "timeline", "imageText", "quote", "closing", "table", "steps"],
+  "layouts": {
+    "cover": ["magazine"],
+    "toc": ["panel"],
+    "section": ["fullbleed"],
+    "points3": ["imageStack", "iconRow"],
+    "points4": ["colorCards", "numbered", "grid2x2"],
+    "compare": ["panels", "banner"],
+    "stats": ["numbers", "chart"],
+    "timeline": ["cards"],
+    "imageText": ["rightImage", "leftImage"],
+    "quote": ["portrait", "center"],
+    "closing": ["portrait"],
+    "table": ["panel"],
+    "steps": ["imageSteps"]
+  },
+  "imageHeavy": true,
+  "imageStyle": "摄影风格：编辑杂志感，真实摄影质感，柔和自然光，低饱和度，整体色调偏雾紫灰并带少量琥珀暖光，构图简洁、留有呼吸感。画面中不要出现任何文字、字母、数字、Logo 或水印。",
+  "defaultImage": "image1.jpeg",
+  "preview": {
+    "cover": "preview/cover.jpg",
+    "samples": ["preview/sample1.jpg", "preview/sample2.jpg"],
+    "overview": "preview/overview.jpg"
+  },
+  "license": "版式结构借鉴自网络模板 MORIMOTO；assets/ 里的原模板图片仅限自用，分享或收费前需全部换成 AI 生成或可商用图片",
+  "qa": { "minBodyPt": 11, "minPt": 9 }
+}

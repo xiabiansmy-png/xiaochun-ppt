@@ -1,0 +1,129 @@
+{
+  "id": "ink-heritage",
+  "name": "墨韵国风",
+  "engine": "1.0",
+  "version": "1.0.0",
+  "description": "纯黑底配藕粉色宋体巨字，文物古建配图，沉静的东方博物馆气质",
+  "style": [
+    "中国风",
+    "文艺",
+    "复古"
+  ],
+  "fits": [
+    "传统文化",
+    "博物馆",
+    "文物",
+    "诗词",
+    "非遗",
+    "文旅",
+    "茶",
+    "书法",
+    "国学",
+    "历史",
+    "品牌故事",
+    "古建筑"
+  ],
+  "avoid": [
+    "科技产品发布",
+    "财报",
+    "儿童教育",
+    "党政汇报",
+    "医疗"
+  ],
+  "tone": "深色",
+  "palette": [
+    "#000000",
+    "#AB8B7E",
+    "#D8CCC6",
+    "#FB5C00",
+    "#C00000"
+  ],
+  "background": "000000",
+  "fonts": {
+    "head": "宋体",
+    "body": "宋体"
+  },
+  "pageTypes": [
+    "cover",
+    "toc",
+    "section",
+    "points3",
+    "points4",
+    "compare",
+    "stats",
+    "timeline",
+    "imageText",
+    "quote",
+    "closing",
+    "table",
+    "steps"
+  ],
+  "layouts": {
+    "cover": [
+      "giant"
+    ],
+    "toc": [
+      "columns"
+    ],
+    "section": [
+      "zhang"
+    ],
+    "points3": [
+      "icons",
+      "panel",
+      "plates"
+    ],
+    "points4": [
+      "vase",
+      "clouds"
+    ],
+    "compare": [
+      "split",
+      "ledger"
+    ],
+    "stats": [
+      "boxes",
+      "chart"
+    ],
+    "timeline": [
+      "scroll"
+    ],
+    "imageText": [
+      "strips",
+      "half"
+    ],
+    "quote": [
+      "frames",
+      "dragon"
+    ],
+    "closing": [
+      "giant"
+    ],
+    "table": [
+      "ledger"
+    ],
+    "steps": [
+      "numerals"
+    ]
+  },
+  "imageHeavy": true,
+  "imageStyle": "东方古典静物与古建筑摄影：暗调低饱和，深色或纯黑背景，暖色侧光，器物、书卷、瓷器、宫殿屋檐等细节特写，质感细腻，沉静典雅的博物馆展陈氛围。画面中不要出现任何文字、字母、数字、Logo 或水印。",
+  "defaultImage": "photo_tea.jpg",
+  "preview": {
+    "cover": "preview/cover.jpg",
+    "samples": [
+      "preview/sample1.jpg",
+      "preview/sample2.jpg"
+    ],
+    "overview": "preview/overview.jpg",
+    "samplePages": [
+      3,
+      6
+    ]
+  },
+  "license": "版式与装饰元素借鉴自网络模板「春江花月夜 · 唐诗国风」；assets/ 里的文物、古建、人像和书法照片仅限自用，分享或收费前需全部换成 AI 生成或可商用图片",
+  "qa": {
+    "minBodyPt": 11,
+    "minPt": 9
+  }
+}

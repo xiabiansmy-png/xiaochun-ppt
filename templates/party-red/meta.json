@@ -1,0 +1,132 @@
+{
+  "id": "party-red",
+  "name": "党政红",
+  "engine": "1.0",
+  "version": "1.0.0",
+  "description": "蓝天云海配红绸与白鸽，蓝色楷体大标题，庄重大气的党政工作汇报风",
+  "style": [
+    "商务",
+    "专业",
+    "中国风"
+  ],
+  "fits": [
+    "工作汇报",
+    "年终总结",
+    "述职报告",
+    "党建",
+    "党课",
+    "政务",
+    "政府工作",
+    "主题教育",
+    "企业年会",
+    "表彰大会",
+    "国企",
+    "事业单位",
+    "工作计划"
+  ],
+  "avoid": [
+    "科技产品发布",
+    "儿童教育",
+    "时尚",
+    "美妆",
+    "游戏",
+    "婚礼"
+  ],
+  "tone": "浅色",
+  "palette": [
+    "#D02227",
+    "#2E75B6",
+    "#E4E9F0",
+    "#FEE2B2",
+    "#404040"
+  ],
+  "background": "F2F2F3",
+  "fonts": {
+    "head": "楷体",
+    "body": "微软雅黑"
+  },
+  "pageTypes": [
+    "cover",
+    "toc",
+    "section",
+    "points3",
+    "points4",
+    "compare",
+    "stats",
+    "timeline",
+    "imageText",
+    "quote",
+    "closing",
+    "table",
+    "steps"
+  ],
+  "layouts": {
+    "cover": [
+      "hero"
+    ],
+    "toc": [
+      "cards"
+    ],
+    "section": [
+      "clouds",
+      "curtain"
+    ],
+    "points3": [
+      "orbit",
+      "cards",
+      "banners"
+    ],
+    "points4": [
+      "ribbon",
+      "flags"
+    ],
+    "compare": [
+      "redBand",
+      "hub"
+    ],
+    "stats": [
+      "cards",
+      "chart"
+    ],
+    "timeline": [
+      "tags"
+    ],
+    "imageText": [
+      "triptych",
+      "frame"
+    ],
+    "quote": [
+      "book",
+      "sky"
+    ],
+    "closing": [
+      "thanks"
+    ],
+    "table": [
+      "panel"
+    ],
+    "steps": [
+      "flags"
+    ]
+  },
+  "imageHeavy": false,
+  "imageStyle": "庄重明亮的纪实摄影风格：晴朗蓝天、白云、壮丽山河或城市建设场景，色调清透，以蓝白为主、可点缀少量中国红，画面干净大气、积极向上。画面中不要出现任何文字、字母、数字、Logo 或水印。",
+  "defaultImage": "photo_wall.jpg",
+  "preview": {
+    "cover": "preview/cover.jpg",
+    "samples": [
+      "preview/sample1.jpg",
+      "preview/sample2.jpg"
+    ],
+    "overview": "preview/overview.jpg",
+    "samplePages": [
+      6,
+      10
+    ]
+  },
+  "license": "版式与装饰元素借鉴自网络模板「210 红色 · 简洁蓝白大气风工作汇报」；assets/ 里的云海背景、红绸、白鸽、书本和照片仅限自用，分享或收费前需全部换成 AI 生成或可商用图片",
+  "qa": {
+    "minBodyPt": 11,
+    "minPt": 9
+  }
+}

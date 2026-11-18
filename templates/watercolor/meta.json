@@ -1,0 +1,41 @@
+{
+  "id": "watercolor",
+  "name": "蓝驼水彩",
+  "engine": "1.0",
+  "version": "1.0.0",
+  "description": "白纸底配雾蓝与暖驼色水彩晕染，深蓝色块撞驼色块，清爽干净的商务汇报风",
+  "style": ["商务", "简洁", "清新"],
+  "fits": ["工作汇报", "工作总结", "年终总结", "述职报告", "工作计划", "部门汇报", "项目复盘", "市场分析", "季度汇报", "竞聘", "培训", "企业介绍", "方案提案"],
+  "avoid": ["党建", "儿童教育", "科技发布会", "游戏", "国潮"],
+  "tone": "浅色",
+  "palette": ["#295D83", "#D2B08E", "#5C819D", "#E5D1BD", "#3F3F3F"],
+  "background": "FFFFFF",
+  "fonts": { "head": "微软雅黑", "body": "微软雅黑" },
+  "pageTypes": ["cover", "toc", "section", "points3", "points4", "compare", "stats", "timeline", "imageText", "quote", "closing", "table", "steps"],
+  "layouts": {
+    "cover": ["hero"],
+    "toc": ["panel"],
+    "section": ["wash", "photo"],
+    "points3": ["bands", "photos", "circle"],
+    "points4": ["tiles", "chevrons"],
+    "compare": ["blocks", "banners"],
+    "stats": ["bubbles", "cards", "chart"],
+    "timeline": ["chevrons", "vertical"],
+    "imageText": ["banner", "panel"],
+    "quote": ["wash", "photo"],
+    "closing": ["thanks"],
+    "table": ["grid"],
+    "steps": ["tiles"]
+  },
+  "imageHeavy": true,
+  "imageStyle": "清透明亮的商务摄影风格：现代建筑、明亮的办公桌面、城市街景或简洁的静物，柔和自然光，以雾蓝色和暖驼色为主调，低饱和、干净、留白多。画面中不要出现任何文字、字母、数字、Logo 或水印。",
+  "defaultImage": "photo_laptop.jpg",
+  "preview": {
+    "cover": "preview/cover.jpg",
+    "samples": ["preview/sample1.jpg", "preview/sample2.jpg"],
+    "overview": "preview/overview.jpg",
+    "samplePages": [6, 12]
+  },
+  "license": "版式借鉴自网络模板「深蓝色の水彩」（只借版式结构和配色）；assets/ 里的水彩背景和全部照片由 AI 生成（tools/gen_assets.js，清单见 assets.ai.json），可分享、可商用",
+  "qa": { "minBodyPt": 11, "minPt": 9 }
+}
